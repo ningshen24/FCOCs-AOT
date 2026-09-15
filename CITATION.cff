@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this dataset/model repository, please cite the FCOCs-AOT article and the archived repository release."
+title: "FCOCs-AOT: data, models and reproducibility files for acute oral toxicity prediction"
+type: dataset
+authors:
+  - family-names: Shen
+    given-names: Ning
+  - family-names: Zhang
+    given-names: Na
+  - family-names: Chen
+    given-names: Shuo
+  - family-names: Ren
+    given-names: Ting
+  - family-names: Xu
+    given-names: Jianing
+  - family-names: Zhao
+    given-names: Lijiao
+  - family-names: Zhong
+    given-names: Rugang
+  - family-names: Sun
+    given-names: Guohui
+    orcid: "https://orcid.org/0000-0003-2259-5431"
+version: "0.1.0-pre-submission"
+date-released: 2026-09-15
+repository-code: "[INSERT GITHUB URL]"
+keywords:
+  - QSTR
+  - q-RASTR
+  - acute oral toxicity
+  - iQTTR
+  - phthalate esters
+  - bisphenols
+  - cheminformatics

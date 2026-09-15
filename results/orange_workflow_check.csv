@@ -1,0 +1,12 @@
+species,check,saved_value,status
+mouse,workflow XML parses,yes,PASS
+mouse,final QSTR feature context present,AATS3p; F10[C-O]; minHBint3; P_VSA_charge_10; P_VSA_charge_14; SM1_Dzm,PASS
+mouse,saved NN neurons,2000,PASS
+mouse,saved NN replicable,True,PASS
+mouse,saved SVM tolerance,0.01,PASS
+rat,workflow XML parses,yes,PASS
+rat,final QSTR feature context present,AATSC7i; CATS2D_08_DL; ChiA_X; F06[C-N]; P_VSA_charge_10,PASS
+rat,saved NN neurons,2000,PASS
+rat,saved NN replicable,True,PASS
+rat,saved SVM tolerance,0.01,PASS
+rat,legacy context strings,F01[C-N],INFO_ONLY

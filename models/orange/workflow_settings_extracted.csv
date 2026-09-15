@@ -1,0 +1,263 @@
+species,learner,parameter,value
+mouse,SVM,C,0.10000000000000014
+mouse,SVM,coef0,1.0
+mouse,SVM,degree,3
+mouse,SVM,epsilon,0.4
+mouse,SVM,gamma,0.0
+mouse,SVM,kernel_type,0
+mouse,SVM,limit_iter,True
+mouse,SVM,max_iter,100
+mouse,SVM,nu,0.5
+mouse,SVM,nu_C,1.0
+mouse,SVM,svm_type,0
+mouse,SVM,tol,0.01
+mouse,Gradient Boosting,method_index,0
+mouse,Gradient Boosting,catgb_editor.colsample_bylevel,1.0
+mouse,Gradient Boosting,catgb_editor.lambda_index,51
+mouse,Gradient Boosting,catgb_editor.learning_rate,0.7
+mouse,Gradient Boosting,catgb_editor.max_depth,4
+mouse,Gradient Boosting,catgb_editor.n_estimators,25
+mouse,Gradient Boosting,catgb_editor.random_state,True
+mouse,Gradient Boosting,gb_editor.learning_rate,0.22000000000000003
+mouse,Gradient Boosting,gb_editor.max_depth,7
+mouse,Gradient Boosting,gb_editor.min_samples_split,3
+mouse,Gradient Boosting,gb_editor.n_estimators,5
+mouse,Gradient Boosting,gb_editor.random_state,True
+mouse,Gradient Boosting,gb_editor.subsample,0.7999999999999998
+mouse,Gradient Boosting,xgb_editor.colsample_bylevel,0.8499999999999999
+mouse,Gradient Boosting,xgb_editor.colsample_bynode,1.0
+mouse,Gradient Boosting,xgb_editor.colsample_bytree,1.0
+mouse,Gradient Boosting,xgb_editor.lambda_index,56
+mouse,Gradient Boosting,xgb_editor.learning_rate,0.294
+mouse,Gradient Boosting,xgb_editor.max_depth,2
+mouse,Gradient Boosting,xgb_editor.n_estimators,71
+mouse,Gradient Boosting,xgb_editor.random_state,False
+mouse,Gradient Boosting,xgb_editor.subsample,1.0
+mouse,Gradient Boosting,xgbrf_editor.colsample_bylevel,1
+mouse,Gradient Boosting,xgbrf_editor.colsample_bynode,1
+mouse,Gradient Boosting,xgbrf_editor.colsample_bytree,1
+mouse,Gradient Boosting,xgbrf_editor.lambda_index,53
+mouse,Gradient Boosting,xgbrf_editor.learning_rate,0.3
+mouse,Gradient Boosting,xgbrf_editor.max_depth,6
+mouse,Gradient Boosting,xgbrf_editor.n_estimators,100
+mouse,Gradient Boosting,xgbrf_editor.random_state,True
+mouse,Gradient Boosting,xgbrf_editor.subsample,1
+mouse,kNN,metric_index,0
+mouse,kNN,n_neighbors,5
+mouse,kNN,weight_index,0
+mouse,Random Forest,class_weight,False
+mouse,Random Forest,index_output,0
+mouse,Random Forest,max_depth,3
+mouse,Random Forest,max_features,5
+mouse,Random Forest,min_samples_split,5
+mouse,Random Forest,n_estimators,6
+mouse,Random Forest,use_max_depth,False
+mouse,Random Forest,use_max_features,False
+mouse,Random Forest,use_min_samples_split,True
+mouse,Random Forest,use_random_state,False
+mouse,Data Table,auto_commit,True
+mouse,Data Table,color_by_class,True
+mouse,Data Table,select_rows,True
+mouse,Data Table,show_attribute_labels,True
+mouse,Data Table,show_distributions,False
+mouse,Data Table,stored_selection.rows,[]
+mouse,Data Table,stored_selection.columns,[]
+mouse,Data Table,stored_sort,[]
+mouse,Data Table,auto_commit,True
+mouse,Data Table,color_by_class,True
+mouse,Data Table,select_rows,True
+mouse,Data Table,show_attribute_labels,True
+mouse,Data Table,show_distributions,False
+mouse,Data Table,stored_selection.rows,[]
+mouse,Data Table,stored_selection.columns,[]
+mouse,Data Table,stored_sort,[]
+mouse,Neural Network,activation_index,1
+mouse,Neural Network,alpha_index,0
+mouse,Neural Network,hidden_layers_input,2000
+mouse,Neural Network,max_iterations,80
+mouse,Neural Network,replicable,True
+mouse,Neural Network,solver_index,2
+mouse,Linear Regression,alpha_index,0
+mouse,Linear Regression,autosend,True
+mouse,Linear Regression,fit_intercept,True
+mouse,Linear Regression,l2_ratio,0.5
+mouse,Linear Regression,reg_type,0
+mouse,Linear Regression,ridge,False
+mouse,XGBoost (Gradient Boosting widget),method_index,1
+mouse,XGBoost (Gradient Boosting widget),catgb_editor.colsample_bylevel,1.0
+mouse,XGBoost (Gradient Boosting widget),catgb_editor.lambda_index,51
+mouse,XGBoost (Gradient Boosting widget),catgb_editor.learning_rate,0.7
+mouse,XGBoost (Gradient Boosting widget),catgb_editor.max_depth,4
+mouse,XGBoost (Gradient Boosting widget),catgb_editor.n_estimators,25
+mouse,XGBoost (Gradient Boosting widget),catgb_editor.random_state,True
+mouse,XGBoost (Gradient Boosting widget),gb_editor.learning_rate,0.22000000000000003
+mouse,XGBoost (Gradient Boosting widget),gb_editor.max_depth,7
+mouse,XGBoost (Gradient Boosting widget),gb_editor.min_samples_split,3
+mouse,XGBoost (Gradient Boosting widget),gb_editor.n_estimators,5
+mouse,XGBoost (Gradient Boosting widget),gb_editor.random_state,True
+mouse,XGBoost (Gradient Boosting widget),gb_editor.subsample,0.7999999999999998
+mouse,XGBoost (Gradient Boosting widget),xgb_editor.colsample_bylevel,0.8499999999999999
+mouse,XGBoost (Gradient Boosting widget),xgb_editor.colsample_bynode,1.0
+mouse,XGBoost (Gradient Boosting widget),xgb_editor.colsample_bytree,1.0
+mouse,XGBoost (Gradient Boosting widget),xgb_editor.lambda_index,74
+mouse,XGBoost (Gradient Boosting widget),xgb_editor.learning_rate,0.293
+mouse,XGBoost (Gradient Boosting widget),xgb_editor.max_depth,2
+mouse,XGBoost (Gradient Boosting widget),xgb_editor.n_estimators,77
+mouse,XGBoost (Gradient Boosting widget),xgb_editor.random_state,False
+mouse,XGBoost (Gradient Boosting widget),xgb_editor.subsample,1.0
+mouse,XGBoost (Gradient Boosting widget),xgbrf_editor.colsample_bylevel,1
+mouse,XGBoost (Gradient Boosting widget),xgbrf_editor.colsample_bynode,1
+mouse,XGBoost (Gradient Boosting widget),xgbrf_editor.colsample_bytree,1
+mouse,XGBoost (Gradient Boosting widget),xgbrf_editor.lambda_index,53
+mouse,XGBoost (Gradient Boosting widget),xgbrf_editor.learning_rate,0.3
+mouse,XGBoost (Gradient Boosting widget),xgbrf_editor.max_depth,6
+mouse,XGBoost (Gradient Boosting widget),xgbrf_editor.n_estimators,100
+mouse,XGBoost (Gradient Boosting widget),xgbrf_editor.random_state,True
+mouse,XGBoost (Gradient Boosting widget),xgbrf_editor.subsample,1
+mouse,Stochastic Gradient Descent,alpha,0.005000000000000002
+mouse,Stochastic Gradient Descent,cls_epsilon,0.19000000000000006
+mouse,Stochastic Gradient Descent,cls_loss_function_index,0
+mouse,Stochastic Gradient Descent,eta0,0.1
+mouse,Stochastic Gradient Descent,l1_ratio,0.019999999999999997
+mouse,Stochastic Gradient Descent,learning_rate_index,2
+mouse,Stochastic Gradient Descent,max_iter,50
+mouse,Stochastic Gradient Descent,penalty_index,1
+mouse,Stochastic Gradient Descent,power_t,0.3
+mouse,Stochastic Gradient Descent,random_state,2
+mouse,Stochastic Gradient Descent,reg_epsilon,0.05000000000000003
+mouse,Stochastic Gradient Descent,reg_loss_function_index,3
+mouse,Stochastic Gradient Descent,shuffle,True
+mouse,Stochastic Gradient Descent,tol,0.0006999999999999999
+mouse,Stochastic Gradient Descent,tol_enabled,True
+mouse,Stochastic Gradient Descent,use_random_state,True
+rat,SVM,C,0.10000000000000014
+rat,SVM,coef0,1.0
+rat,SVM,degree,3
+rat,SVM,epsilon,0.4
+rat,SVM,gamma,0.0
+rat,SVM,kernel_type,0
+rat,SVM,limit_iter,True
+rat,SVM,max_iter,100
+rat,SVM,nu,0.5
+rat,SVM,nu_C,1.0
+rat,SVM,svm_type,0
+rat,SVM,tol,0.01
+rat,Gradient Boosting,method_index,0
+rat,Gradient Boosting,catgb_editor.colsample_bylevel,1.0
+rat,Gradient Boosting,catgb_editor.lambda_index,51
+rat,Gradient Boosting,catgb_editor.learning_rate,0.7
+rat,Gradient Boosting,catgb_editor.max_depth,4
+rat,Gradient Boosting,catgb_editor.n_estimators,25
+rat,Gradient Boosting,catgb_editor.random_state,True
+rat,Gradient Boosting,gb_editor.learning_rate,0.22000000000000003
+rat,Gradient Boosting,gb_editor.max_depth,7
+rat,Gradient Boosting,gb_editor.min_samples_split,3
+rat,Gradient Boosting,gb_editor.n_estimators,5
+rat,Gradient Boosting,gb_editor.random_state,True
+rat,Gradient Boosting,gb_editor.subsample,0.7999999999999998
+rat,Gradient Boosting,xgb_editor.colsample_bylevel,0.8499999999999999
+rat,Gradient Boosting,xgb_editor.colsample_bynode,1.0
+rat,Gradient Boosting,xgb_editor.colsample_bytree,1.0
+rat,Gradient Boosting,xgb_editor.lambda_index,56
+rat,Gradient Boosting,xgb_editor.learning_rate,0.294
+rat,Gradient Boosting,xgb_editor.max_depth,2
+rat,Gradient Boosting,xgb_editor.n_estimators,71
+rat,Gradient Boosting,xgb_editor.random_state,False
+rat,Gradient Boosting,xgb_editor.subsample,1.0
+rat,Gradient Boosting,xgbrf_editor.colsample_bylevel,1
+rat,Gradient Boosting,xgbrf_editor.colsample_bynode,1
+rat,Gradient Boosting,xgbrf_editor.colsample_bytree,1
+rat,Gradient Boosting,xgbrf_editor.lambda_index,53
+rat,Gradient Boosting,xgbrf_editor.learning_rate,0.3
+rat,Gradient Boosting,xgbrf_editor.max_depth,6
+rat,Gradient Boosting,xgbrf_editor.n_estimators,100
+rat,Gradient Boosting,xgbrf_editor.random_state,True
+rat,Gradient Boosting,xgbrf_editor.subsample,1
+rat,kNN,metric_index,0
+rat,kNN,n_neighbors,5
+rat,kNN,weight_index,0
+rat,Random Forest,class_weight,False
+rat,Random Forest,index_output,0
+rat,Random Forest,max_depth,3
+rat,Random Forest,max_features,5
+rat,Random Forest,min_samples_split,5
+rat,Random Forest,n_estimators,6
+rat,Random Forest,use_max_depth,False
+rat,Random Forest,use_max_features,False
+rat,Random Forest,use_min_samples_split,True
+rat,Random Forest,use_random_state,False
+rat,Data Table,auto_commit,True
+rat,Data Table,color_by_class,True
+rat,Data Table,select_rows,True
+rat,Data Table,show_attribute_labels,True
+rat,Data Table,show_distributions,False
+rat,Data Table,stored_selection.rows,[]
+rat,Data Table,stored_selection.columns,[]
+rat,Data Table,stored_sort,[]
+rat,Data Table,auto_commit,True
+rat,Data Table,color_by_class,True
+rat,Data Table,select_rows,True
+rat,Data Table,show_attribute_labels,True
+rat,Data Table,show_distributions,False
+rat,Data Table,stored_selection.rows,[]
+rat,Data Table,stored_selection.columns,[]
+rat,Data Table,stored_sort,[]
+rat,Neural Network,activation_index,1
+rat,Neural Network,alpha_index,0
+rat,Neural Network,hidden_layers_input,2000
+rat,Neural Network,max_iterations,80
+rat,Neural Network,replicable,True
+rat,Neural Network,solver_index,2
+rat,Linear Regression,alpha_index,0
+rat,Linear Regression,autosend,True
+rat,Linear Regression,fit_intercept,True
+rat,Linear Regression,l2_ratio,0.5
+rat,Linear Regression,reg_type,0
+rat,Linear Regression,ridge,False
+rat,XGBoost (Gradient Boosting widget),method_index,1
+rat,XGBoost (Gradient Boosting widget),catgb_editor.colsample_bylevel,1.0
+rat,XGBoost (Gradient Boosting widget),catgb_editor.lambda_index,51
+rat,XGBoost (Gradient Boosting widget),catgb_editor.learning_rate,0.7
+rat,XGBoost (Gradient Boosting widget),catgb_editor.max_depth,4
+rat,XGBoost (Gradient Boosting widget),catgb_editor.n_estimators,25
+rat,XGBoost (Gradient Boosting widget),catgb_editor.random_state,True
+rat,XGBoost (Gradient Boosting widget),gb_editor.learning_rate,0.22000000000000003
+rat,XGBoost (Gradient Boosting widget),gb_editor.max_depth,7
+rat,XGBoost (Gradient Boosting widget),gb_editor.min_samples_split,3
+rat,XGBoost (Gradient Boosting widget),gb_editor.n_estimators,5
+rat,XGBoost (Gradient Boosting widget),gb_editor.random_state,True
+rat,XGBoost (Gradient Boosting widget),gb_editor.subsample,0.7999999999999998
+rat,XGBoost (Gradient Boosting widget),xgb_editor.colsample_bylevel,0.8499999999999999
+rat,XGBoost (Gradient Boosting widget),xgb_editor.colsample_bynode,1.0
+rat,XGBoost (Gradient Boosting widget),xgb_editor.colsample_bytree,1.0
+rat,XGBoost (Gradient Boosting widget),xgb_editor.lambda_index,74
+rat,XGBoost (Gradient Boosting widget),xgb_editor.learning_rate,0.293
+rat,XGBoost (Gradient Boosting widget),xgb_editor.max_depth,2
+rat,XGBoost (Gradient Boosting widget),xgb_editor.n_estimators,77
+rat,XGBoost (Gradient Boosting widget),xgb_editor.random_state,False
+rat,XGBoost (Gradient Boosting widget),xgb_editor.subsample,1.0
+rat,XGBoost (Gradient Boosting widget),xgbrf_editor.colsample_bylevel,1
+rat,XGBoost (Gradient Boosting widget),xgbrf_editor.colsample_bynode,1
+rat,XGBoost (Gradient Boosting widget),xgbrf_editor.colsample_bytree,1
+rat,XGBoost (Gradient Boosting widget),xgbrf_editor.lambda_index,53
+rat,XGBoost (Gradient Boosting widget),xgbrf_editor.learning_rate,0.3
+rat,XGBoost (Gradient Boosting widget),xgbrf_editor.max_depth,6
+rat,XGBoost (Gradient Boosting widget),xgbrf_editor.n_estimators,100
+rat,XGBoost (Gradient Boosting widget),xgbrf_editor.random_state,True
+rat,XGBoost (Gradient Boosting widget),xgbrf_editor.subsample,1
+rat,Stochastic Gradient Descent,alpha,0.005000000000000002
+rat,Stochastic Gradient Descent,cls_epsilon,0.19000000000000006
+rat,Stochastic Gradient Descent,cls_loss_function_index,0
+rat,Stochastic Gradient Descent,eta0,0.1
+rat,Stochastic Gradient Descent,l1_ratio,0.019999999999999997
+rat,Stochastic Gradient Descent,learning_rate_index,2
+rat,Stochastic Gradient Descent,max_iter,50
+rat,Stochastic Gradient Descent,penalty_index,1
+rat,Stochastic Gradient Descent,power_t,0.3
+rat,Stochastic Gradient Descent,random_state,2
+rat,Stochastic Gradient Descent,reg_epsilon,0.05000000000000003
+rat,Stochastic Gradient Descent,reg_loss_function_index,3
+rat,Stochastic Gradient Descent,shuffle,True
+rat,Stochastic Gradient Descent,tol,0.0006999999999999999
+rat,Stochastic Gradient Descent,tol_enabled,True
+rat,Stochastic Gradient Descent,use_random_state,True

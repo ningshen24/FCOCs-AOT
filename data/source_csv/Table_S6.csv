@@ -1,0 +1,84 @@
+﻿Table S6. The hyperparameters used to construct the Mouse and Rat ML models.,,,,
+Mouse ML Models,,,,
+ML algorithm,,hyperparameters,,Value
+RF,,Number of trees,,6
+NN,,Number of neurons,,2000
+,,Activation function,,Logistic
+,,Maximal number of iterations,,80
+,,Replicable training,,Enabled
+,,L2 Regularization coefficient (α),,0
+kNN,,Number of neighbors (k),,5
+,,Distance metric,,Euclidean
+,,Weighting scheme,,Uniform
+XGB,,Number of trees,,77
+,,Learning rate,,0.293
+,,Lambda (L2 regularization),,30
+,,Limit depth of individual trees,,2
+,,Fraction of training instances,,1
+,,Fraction of features for each tree,,1
+,,Fraction of features for each level,,0.85
+,,Fraction of features for each split,,1
+GB,,Number of trees,,5
+,,Learning rate,,0.22
+,,Limit depth of individual trees,,7
+,,Minimum samples to split a node,,3
+,,Fraction of training instances,,0.8
+SGD,,Classification loss function,,Hinge
+,,Regression loss function,,Squared ε-insensitive
+,,ε (for regression loss),,0.05
+,,Regularization,,Lasso (L1)
+,,Regularization strength (α),,0.005
+,,Learning rate schedule,,Inverse scaling
+,,Initial learning rate (η₀),,0.1
+,,Inverse scaling exponent (t),,0.3
+,,Number of iterations,,50
+,,Tolerance (stopping criterion),,0.0007
+,,Shuffle data after each iteration,,Enabled
+,,Fixed seed for random shuffling,,2
+SVM,,Cost (C),,0.1
+,,Regression loss epsilon (ε),,0.4
+,,Kernel,,Linear
+,,Numerical tolerance,,0.01
+,,Iteration limit,,100
+,,,,
+Rat ML Models,,,,
+ML algorithm,,hyperparameters,,Value
+RF,,Number of trees,,6
+NN,,Number of neurons,,2000
+,,Activation function,,Logistic
+,,Maximal number of iterations,,80
+,,Replicable training,,Enabled
+,,L2 Regularization coefficient (α),,0
+kNN,,Number of neighbors (k),,5
+,,Distance metric,,Euclidean
+,,Weighting scheme,,Uniform
+XGB,,Number of trees,,77
+,,Learning rate,,0.293
+,,Lambda (L2 regularization),,30
+,,Limit depth of individual trees,,2
+,,Fraction of training instances,,1
+,,Fraction of features for each tree,,1
+,,Fraction of features for each level,,0.85
+,,Fraction of features for each split,,1
+GB,,Number of trees,,5
+,,Learning rate,,0.22
+,,Limit depth of individual trees,,7
+,,Minimum samples to split a node,,3
+,,Fraction of training instances,,0.8
+SGD,,Classification loss function,,Hinge
+,,Regression loss function,,Squared ε-insensitive
+,,ε (for regression loss),,0.05
+,,Regularization,,Lasso (L1)
+,,Regularization strength (α),,0.005
+,,Learning rate schedule,,Inverse scaling
+,,Initial learning rate (η₀),,0.1
+,,Inverse scaling exponent (t),,0.3
+,,Number of iterations,,50
+,,Tolerance (stopping criterion),,0.0007
+,,Shuffle data after each iteration,,Enabled
+,,Fixed seed for random shuffling,,2
+SVM,,Cost (C),,0.1
+,,Regression loss epsilon (ε),,0.4
+,,Kernel,,Linear
+,,Numerical tolerance,,0.01
+,,Iteration limit,,100

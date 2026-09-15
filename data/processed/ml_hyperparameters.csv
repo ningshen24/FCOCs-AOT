@@ -1,0 +1,79 @@
+species,algorithm,hyperparameter,value
+mouse,RF,Number of trees,6
+mouse,NN,Number of neurons,2000
+mouse,NN,Activation function,Logistic
+mouse,NN,Maximal number of iterations,80
+mouse,NN,Replicable training,Enabled
+mouse,NN,L2 Regularization coefficient (α),0
+mouse,kNN,Number of neighbors (k),5
+mouse,kNN,Distance metric,Euclidean
+mouse,kNN,Weighting scheme,Uniform
+mouse,XGB,Number of trees,77
+mouse,XGB,Learning rate,0.293
+mouse,XGB,Lambda (L2 regularization),30
+mouse,XGB,Limit depth of individual trees,2
+mouse,XGB,Fraction of training instances,1
+mouse,XGB,Fraction of features for each tree,1
+mouse,XGB,Fraction of features for each level,0.85
+mouse,XGB,Fraction of features for each split,1
+mouse,GB,Number of trees,5
+mouse,GB,Learning rate,0.22
+mouse,GB,Limit depth of individual trees,7
+mouse,GB,Minimum samples to split a node,3
+mouse,GB,Fraction of training instances,0.8
+mouse,SGD,Classification loss function,Hinge
+mouse,SGD,Regression loss function,Squared ε-insensitive
+mouse,SGD,ε (for regression loss),0.05
+mouse,SGD,Regularization,Lasso (L1)
+mouse,SGD,Regularization strength (α),0.005
+mouse,SGD,Learning rate schedule,Inverse scaling
+mouse,SGD,Initial learning rate (η₀),0.1
+mouse,SGD,Inverse scaling exponent (t),0.3
+mouse,SGD,Number of iterations,50
+mouse,SGD,Tolerance (stopping criterion),0.0007
+mouse,SGD,Shuffle data after each iteration,Enabled
+mouse,SGD,Fixed seed for random shuffling,2
+mouse,SVM,Cost (C),0.1
+mouse,SVM,Regression loss epsilon (ε),0.4
+mouse,SVM,Kernel,Linear
+mouse,SVM,Numerical tolerance,0.01
+mouse,SVM,Iteration limit,100
+rat,RF,Number of trees,6
+rat,NN,Number of neurons,2000
+rat,NN,Activation function,Logistic
+rat,NN,Maximal number of iterations,80
+rat,NN,Replicable training,Enabled
+rat,NN,L2 Regularization coefficient (α),0
+rat,kNN,Number of neighbors (k),5
+rat,kNN,Distance metric,Euclidean
+rat,kNN,Weighting scheme,Uniform
+rat,XGB,Number of trees,77
+rat,XGB,Learning rate,0.293
+rat,XGB,Lambda (L2 regularization),30
+rat,XGB,Limit depth of individual trees,2
+rat,XGB,Fraction of training instances,1
+rat,XGB,Fraction of features for each tree,1
+rat,XGB,Fraction of features for each level,0.85
+rat,XGB,Fraction of features for each split,1
+rat,GB,Number of trees,5
+rat,GB,Learning rate,0.22
+rat,GB,Limit depth of individual trees,7
+rat,GB,Minimum samples to split a node,3
+rat,GB,Fraction of training instances,0.8
+rat,SGD,Classification loss function,Hinge
+rat,SGD,Regression loss function,Squared ε-insensitive
+rat,SGD,ε (for regression loss),0.05
+rat,SGD,Regularization,Lasso (L1)
+rat,SGD,Regularization strength (α),0.005
+rat,SGD,Learning rate schedule,Inverse scaling
+rat,SGD,Initial learning rate (η₀),0.1
+rat,SGD,Inverse scaling exponent (t),0.3
+rat,SGD,Number of iterations,50
+rat,SGD,Tolerance (stopping criterion),0.0007
+rat,SGD,Shuffle data after each iteration,Enabled
+rat,SGD,Fixed seed for random shuffling,2
+rat,SVM,Cost (C),0.1
+rat,SVM,Regression loss epsilon (ε),0.4
+rat,SVM,Kernel,Linear
+rat,SVM,Numerical tolerance,0.01
+rat,SVM,Iteration limit,100

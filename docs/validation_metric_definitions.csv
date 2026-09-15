@@ -1,0 +1,27 @@
+Parameters,Meaning,References
+R2,Coefficient of determination,"Golbraikh et al. J. Mol. Graph. Model., 2002, 20, 269-276.; Golbraikh A. et al. J. Comput.-Aided Mol. Des., 2003, 17, 241-253.; Tropsha et al. QSAR Comb. Sci., 2003, 22, 69-77.; Gramatica P. QSAR Comb. Sci., 2007, 26, 694-701.; Tropsha, A. Mol. Inf., 2010, 29, 476-488."
+Radj2,Adjusted coefficient of determination,
+RMSEtrain,Root mean squared error of the training set,
+F,Fisher statistics,
+QLOO2,Leave-one-out cross-validation correlation coefficient,
+QLMO2,Leave-many-out cross-validation correlation coefficient,
+RMSEcv,Cross-validation root mean squared error,
+RYscr2 and QYscr2,New coefficients of determination following Y-scrambling procedure with 2000 iterations,
+R02,The squared correlation coefficient of predicted values vs. experimental values based on the regression line through the origin,
+R'02,The squared correlation coefficient of experimental values vs. predicted values  based on the regression line through the origin,
+k,The slope of the regression line through the origin (predicted values vs. experimental values),
+k',The slope of the regression line through the origin (experimental values vs. predicted values),
+CCCcv,Cross-validation concordance correlation coefficient,"Lin L. Biometrics, 1989, 45, 255-268; Lin L. Biometrics 1992, 48, 599-604."
+CCCtrain,Concordance correlation coefficient of the training set,
+QUIK rule,Minimizes the inter-correlation between descriptors,"Todeschini et al. Chemom. Int. Lab. Syst., 1999, 46, 13-29"
+Rtest2,Coefficient of determination of the test set,"Golbraikh et al. J. Mol. Graph. Model., 2002, 20, 269-276."
+RMSEtest,Root mean squared error of the test set,"Aptula et al. QSAR Comb. Sci. 2005, 24, 385-396."
+Qext-F12,External Q2 functions,"Shi et al. J. Chem. Inf. Comput. Sci., 2001, 41, 186-195."
+,,
+Qext-F22,External Q2 functions,"Consonni et al. J. Chem. Inf. Model., 2009, 49, 1669-1678."
+Qext-F32,External Q2 functions,
+CCCtest,Concordance correlation coefficient of the test set,"Chirico et al. J. Chem. Inf. Model., 2011, 51, 2320-2335.; Chirico et al. J. Chem. Inf. Model., 2012, 52, 2044-2058."
+MAEtrain,Mean absolute error of the training set,"Roy et al. Chemom. Int. Lab. Syst., 2016, 152, 18-33.；Gramatica et al. J. Chem. Inf. Model. 2016, 56(6), 1127-1131."
+MAEtest,Mean absolute error of the test set,
+SD,Standard deviation,
+rm2 and Δrm2,Validation metrics,"Ojha et al. Chemom. Int. Lab. Syst., 2011, 107, 194-205.;Roy et al. J. Chemom. 2018, 32, e2992."

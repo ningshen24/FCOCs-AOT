@@ -1,0 +1,178 @@
+{
+  "mouse_qstr": {
+    "endpoint": "mouse acute oral toxicity pLD50 (-log10 mol/kg)",
+    "model_type": "MLR/QSTR",
+    "software": "QSARINS 2.2.4",
+    "split": "Rnd",
+    "n_train": 48,
+    "n_test": 15,
+    "intercept": 3.0833,
+    "coefficients": {
+      "AATS3p": -1.0392,
+      "F10[C-O]": -0.0345,
+      "minHBint3": 0.125,
+      "P_VSA_charge_10": 0.0516,
+      "P_VSA_charge_14": -0.0358,
+      "SM1_Dzm": 0.4676
+    },
+    "warning_leverage_h_star": 0.4375,
+    "reported_validation": {
+      "R2": 0.8626,
+      "Q2_LOO": 0.8137,
+      "MAE_train": 0.1983,
+      "RMSE_external": 0.3377,
+      "MAE_external": 0.2931,
+      "R2_external": 0.9223,
+      "Q2_F1": 0.852,
+      "Q2_F2": 0.8501,
+      "Q2_F3": 0.7578,
+      "CCC_external": 0.9008
+    }
+  },
+  "rat_qstr": {
+    "endpoint": "rat acute oral toxicity pLD50 (-log10 mol/kg)",
+    "model_type": "MLR/QSTR",
+    "software": "QSARINS 2.2.4",
+    "split": "Rnd",
+    "n_train": 51,
+    "n_test": 16,
+    "intercept": 294.0931,
+    "coefficients": {
+      "AATSC7i": -0.6438,
+      "CATS2D_08_DL": 0.1078,
+      "ChiA_X": -293.7069,
+      "F06[C-N]": 0.0758,
+      "P_VSA_charge_10": 0.0668
+    },
+    "warning_leverage_h_star": 0.3529,
+    "reported_validation": {
+      "R2": 0.8567,
+      "Q2_LOO": 0.8254,
+      "MAE_train": 0.2412,
+      "RMSE_external": 0.2843,
+      "MAE_external": 0.2371,
+      "R2_external": 0.8456,
+      "Q2_F1": 0.8505,
+      "Q2_F2": 0.8444,
+      "Q2_F3": 0.8825,
+      "CCC_external": 0.916
+    }
+  },
+  "mouse_qrastr": {
+    "endpoint": "mouse acute oral toxicity pLD50 (-log10 mol/kg)",
+    "model_type": "MLR/q-RASTR",
+    "software": "QSARINS 2.2.4 + DTC Lab tools",
+    "read_across": {
+      "similarity_function": "Gaussian kernel (GK)",
+      "n_close_source_compounds": 6,
+      "sigma": 0.5,
+      "gamma": null,
+      "optimizer": "Auto_RA_Optimizer v1.0",
+      "read_across": "Read-Across v4.1",
+      "rasar_descriptor_calculator": "RASAR-Desc-Calc v3.0.2"
+    },
+    "intercept": 1.5932,
+    "coefficients": {
+      "Abs MaxPos-MaxNeg": 0.7254,
+      "B02[C-S]": 0.4014,
+      "P_VSA_charge_10": 0.0377,
+      "sm1(GK)[Banerjee-Roy similarity coefficient 1]": 0.3076,
+      "SP-2": -0.0652,
+      "SPC-4": 0.2249
+    },
+    "warning_leverage_h_star": 0.4375,
+    "reported_validation": {
+      "R2": 0.8873,
+      "Q2_LOO": 0.8518,
+      "MAE_train": 0.1798,
+      "RMSE_external": 0.443,
+      "MAE_external": 0.3755,
+      "R2_external": 0.7919,
+      "Q2_F1": 0.7453,
+      "Q2_F2": 0.742,
+      "Q2_F3": 0.5831,
+      "CCC_external": 0.8595
+    }
+  },
+  "rat_qrastr": {
+    "endpoint": "rat acute oral toxicity pLD50 (-log10 mol/kg)",
+    "model_type": "MLR/q-RASTR",
+    "software": "QSARINS 2.2.4 + DTC Lab tools",
+    "read_across": {
+      "similarity_function": "Laplacian kernel (LK)",
+      "n_close_source_compounds": 3,
+      "sigma": null,
+      "gamma": 0.75,
+      "optimizer": "Auto_RA_Optimizer v1.0",
+      "read_across": "Read-Across v4.1",
+      "rasar_descriptor_calculator": "RASAR-Desc-Calc v3.0.2"
+    },
+    "intercept": -2.62,
+    "coefficients": {
+      "CATS2D_08_DL": 0.1139,
+      "Eig06_EA(dm)": 0.3072,
+      "JGI10": 55.0692,
+      "P_VSA_charge_10": 0.0443,
+      "PW3": 11.81
+    },
+    "warning_leverage_h_star": 0.3529,
+    "reported_validation": {
+      "R2": 0.8399,
+      "Q2_LOO": 0.8057,
+      "MAE_train": 0.2541,
+      "RMSE_external": 0.3077,
+      "MAE_external": 0.2588,
+      "R2_external": 0.8219,
+      "Q2_F1": 0.8249,
+      "Q2_F2": 0.8178,
+      "Q2_F3": 0.8625,
+      "CCC_external": 0.8954
+    }
+  },
+  "mouse_to_rat_iqttr": {
+    "endpoint": "rat pLD50 from mouse pLD50",
+    "model_type": "iQTTR/MLR",
+    "split": "ORes",
+    "n_train": 20,
+    "n_test": 7,
+    "intercept": -0.24657560982685908,
+    "coefficients": {
+      "mouse_pLD50": 1.0618214543728524
+    },
+    "warning_leverage_h_star": 0.3,
+    "reported_validation": {
+      "R2": 0.7772,
+      "Q2_LOO": 0.7154,
+      "R2_external": 0.7743,
+      "Q2_F1": 0.7315,
+      "Q2_F2": 0.7268,
+      "Q2_F3": 0.8638,
+      "CCC_external": 0.8602,
+      "RMSE_external": 0.3325,
+      "MAE_external": 0.2721
+    }
+  },
+  "rat_to_mouse_iqttr": {
+    "endpoint": "mouse pLD50 from rat pLD50",
+    "model_type": "iQTTR/MLR",
+    "split": "ORes",
+    "n_train": 20,
+    "n_test": 7,
+    "intercept": 0.6421132156239868,
+    "coefficients": {
+      "rat_pLD50": 0.7264473617090215
+    },
+    "warning_leverage_h_star": 0.3,
+    "reported_validation": {
+      "R2": 0.7459,
+      "Q2_LOO": 0.6965,
+      "R2_external": 0.9101,
+      "Q2_F1": 0.8938,
+      "Q2_F2": 0.8904,
+      "Q2_F3": 0.9365,
+      "CCC_external": 0.9385,
+      "RMSE_external": 0.1884,
+      "MAE_external": 0.1732
+    }
+  }
+}

@@ -1,0 +1,8 @@
+species,item,reported_or_qstr_value,saved_ows_value,status,note
+mouse,Neural network number of neurons,2000,2000,resolved,Revised OWS matches Table S6.
+mouse,Neural network replicable training,Enabled,True,resolved,True corresponds to replicable training enabled.
+mouse,SVM numerical tolerance,0.01,0.01,resolved,Revised OWS matches Table S6.
+rat,Neural network number of neurons,2000,2000,resolved,Revised OWS matches Table S6.
+rat,Neural network replicable training,Enabled,True,resolved,True corresponds to replicable training enabled.
+rat,SVM numerical tolerance,0.01,0.01,resolved,Revised OWS matches Table S6.
+rat,Rat ML descriptor linked to C-N atom pair,F06[C-N],F06[C-N],resolved,Revised workflow contains the final F06[C-N] context; legacy F01[C-N] strings remain only in historical saved contexts.

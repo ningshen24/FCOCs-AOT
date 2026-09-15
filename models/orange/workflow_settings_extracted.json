@@ -1,0 +1,658 @@
+{
+  "workflows": [
+    {
+      "species": "mouse",
+      "workflow_file": "Mouse_QSTR-ML.ows",
+      "scheme_version": "2.0",
+      "exact_orange3_package_version": null,
+      "orange_version_path_hints": [],
+      "saved_training_path_hint": "E:/BJUT/FCOMs/mousetrain2.xlsx",
+      "saved_test_path_hint": "E:/BJUT/FCOMs/mousetest2.xlsx",
+      "final_qstr_features": [
+        "AATS3p",
+        "F10[C-O]",
+        "minHBint3",
+        "P_VSA_charge_10",
+        "P_VSA_charge_14",
+        "SM1_Dzm"
+      ],
+      "legacy_context_feature_mentions": [],
+      "saved_target_strings": [
+        " -logLD50",
+        "PLD50"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "File",
+          "qualified_name": "Orange.widgets.data.owfile.OWFile",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "File",
+          "position": "(45.0, 173.0)"
+        },
+        {
+          "id": "1",
+          "name": "SVM",
+          "qualified_name": "Orange.widgets.model.owsvm.OWSVM",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "SVM",
+          "position": "(233.0, 86.0)"
+        },
+        {
+          "id": "2",
+          "name": "Gradient Boosting",
+          "qualified_name": "Orange.widgets.model.owgradientboosting.OWGradientBoosting",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Gradient Boosting",
+          "position": "(234.0, 192.0)"
+        },
+        {
+          "id": "3",
+          "name": "kNN",
+          "qualified_name": "Orange.widgets.model.owknn.OWKNNLearner",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "kNN",
+          "position": "(233.0, 319.0)"
+        },
+        {
+          "id": "4",
+          "name": "Random Forest",
+          "qualified_name": "Orange.widgets.model.owrandomforest.OWRandomForest",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Random Forest",
+          "position": "(240.0, 433.0)"
+        },
+        {
+          "id": "5",
+          "name": "Test and Score",
+          "qualified_name": "Orange.widgets.evaluate.owtestandscore.OWTestAndScore",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Test and Score",
+          "position": "(481.0, 329.0)"
+        },
+        {
+          "id": "6",
+          "name": "Predictions",
+          "qualified_name": "Orange.widgets.evaluate.owpredictions.OWPredictions",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Predictions",
+          "position": "(487.0, 118.0)"
+        },
+        {
+          "id": "7",
+          "name": "Data Table",
+          "qualified_name": "Orange.widgets.data.owtable.OWTable",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Data Table",
+          "position": "(43.0, 338.0)"
+        },
+        {
+          "id": "8",
+          "name": "File",
+          "qualified_name": "Orange.widgets.data.owfile.OWFile",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "File (1)",
+          "position": "(401.0, 589.0)"
+        },
+        {
+          "id": "9",
+          "name": "Data Table",
+          "qualified_name": "Orange.widgets.data.owtable.OWTable",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Data Table (1)",
+          "position": "(522.0, 525.0)"
+        },
+        {
+          "id": "10",
+          "name": "Neural Network",
+          "qualified_name": "Orange.widgets.model.owneuralnetwork.OWNNLearner",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Neural Network",
+          "position": "(237.0, -32.0)"
+        },
+        {
+          "id": "11",
+          "name": "Linear Regression",
+          "qualified_name": "Orange.widgets.model.owlinearregression.OWLinearRegression",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Linear Regression",
+          "position": "(242.0, 545.0)"
+        },
+        {
+          "id": "12",
+          "name": "Gradient Boosting",
+          "qualified_name": "Orange.widgets.model.owgradientboosting.OWGradientBoosting",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Gradient Boosting (1)",
+          "position": "(247.0, 664.0)"
+        },
+        {
+          "id": "13",
+          "name": "Stochastic Gradient Descent",
+          "qualified_name": "Orange.widgets.model.owsgd.OWSGD",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Stochastic Gradient Descent",
+          "position": "(245.0, 758.0)"
+        }
+      ],
+      "learner_properties_by_node_id": {
+        "1": {
+          "C": 0.10000000000000014,
+          "coef0": 1.0,
+          "degree": 3,
+          "epsilon": 0.4,
+          "gamma": 0.0,
+          "kernel_type": 0,
+          "limit_iter": true,
+          "max_iter": 100,
+          "nu": 0.5,
+          "nu_C": 1.0,
+          "svm_type": 0,
+          "tol": 0.01
+        },
+        "2": {
+          "method_index": 0,
+          "catgb_editor": {
+            "colsample_bylevel": 1.0,
+            "lambda_index": 51,
+            "learning_rate": 0.7,
+            "max_depth": 4,
+            "n_estimators": 25,
+            "random_state": true
+          },
+          "gb_editor": {
+            "learning_rate": 0.22000000000000003,
+            "max_depth": 7,
+            "min_samples_split": 3,
+            "n_estimators": 5,
+            "random_state": true,
+            "subsample": 0.7999999999999998
+          },
+          "xgb_editor": {
+            "colsample_bylevel": 0.8499999999999999,
+            "colsample_bynode": 1.0,
+            "colsample_bytree": 1.0,
+            "lambda_index": 56,
+            "learning_rate": 0.294,
+            "max_depth": 2,
+            "n_estimators": 71,
+            "random_state": false,
+            "subsample": 1.0
+          },
+          "xgbrf_editor": {
+            "colsample_bylevel": 1,
+            "colsample_bynode": 1,
+            "colsample_bytree": 1,
+            "lambda_index": 53,
+            "learning_rate": 0.3,
+            "max_depth": 6,
+            "n_estimators": 100,
+            "random_state": true,
+            "subsample": 1
+          }
+        },
+        "3": {
+          "metric_index": 0,
+          "n_neighbors": 5,
+          "weight_index": 0
+        },
+        "4": {
+          "class_weight": false,
+          "index_output": 0,
+          "max_depth": 3,
+          "max_features": 5,
+          "min_samples_split": 5,
+          "n_estimators": 6,
+          "use_max_depth": false,
+          "use_max_features": false,
+          "use_min_samples_split": true,
+          "use_random_state": false
+        },
+        "7": {
+          "auto_commit": true,
+          "color_by_class": true,
+          "select_rows": true,
+          "show_attribute_labels": true,
+          "show_distributions": false,
+          "stored_selection": {
+            "rows": [],
+            "columns": []
+          },
+          "stored_sort": []
+        },
+        "9": {
+          "auto_commit": true,
+          "color_by_class": true,
+          "select_rows": true,
+          "show_attribute_labels": true,
+          "show_distributions": false,
+          "stored_selection": {
+            "rows": [],
+            "columns": []
+          },
+          "stored_sort": []
+        },
+        "10": {
+          "activation_index": 1,
+          "alpha_index": 0,
+          "hidden_layers_input": "2000",
+          "max_iterations": 80,
+          "replicable": true,
+          "solver_index": 2
+        },
+        "11": {
+          "alpha_index": 0,
+          "autosend": true,
+          "fit_intercept": true,
+          "l2_ratio": 0.5,
+          "reg_type": 0,
+          "ridge": false
+        },
+        "12": {
+          "method_index": 1,
+          "catgb_editor": {
+            "colsample_bylevel": 1.0,
+            "lambda_index": 51,
+            "learning_rate": 0.7,
+            "max_depth": 4,
+            "n_estimators": 25,
+            "random_state": true
+          },
+          "gb_editor": {
+            "learning_rate": 0.22000000000000003,
+            "max_depth": 7,
+            "min_samples_split": 3,
+            "n_estimators": 5,
+            "random_state": true,
+            "subsample": 0.7999999999999998
+          },
+          "xgb_editor": {
+            "colsample_bylevel": 0.8499999999999999,
+            "colsample_bynode": 1.0,
+            "colsample_bytree": 1.0,
+            "lambda_index": 74,
+            "learning_rate": 0.293,
+            "max_depth": 2,
+            "n_estimators": 77,
+            "random_state": false,
+            "subsample": 1.0
+          },
+          "xgbrf_editor": {
+            "colsample_bylevel": 1,
+            "colsample_bynode": 1,
+            "colsample_bytree": 1,
+            "lambda_index": 53,
+            "learning_rate": 0.3,
+            "max_depth": 6,
+            "n_estimators": 100,
+            "random_state": true,
+            "subsample": 1
+          }
+        },
+        "13": {
+          "alpha": 0.005000000000000002,
+          "cls_epsilon": 0.19000000000000006,
+          "cls_loss_function_index": 0,
+          "eta0": 0.1,
+          "l1_ratio": 0.019999999999999997,
+          "learning_rate_index": 2,
+          "max_iter": 50,
+          "penalty_index": 1,
+          "power_t": 0.3,
+          "random_state": 2,
+          "reg_epsilon": 0.05000000000000003,
+          "reg_loss_function_index": 3,
+          "shuffle": true,
+          "tol": 0.0006999999999999999,
+          "tol_enabled": true,
+          "use_random_state": true
+        }
+      }
+    },
+    {
+      "species": "rat",
+      "workflow_file": "Rat_QSTR-ML.ows",
+      "scheme_version": "2.0",
+      "exact_orange3_package_version": null,
+      "orange_version_path_hints": [
+        "E:/Orange 3.40.0/Lib/site-packages/Orange/datasets/brown-selected.tab",
+        "E:/Orange 3.40.0/Lib/site-packages/Orange/datasets/heart_disease.tab",
+        "E:/Orange 3.40.0/Lib/site-packages/Orange/datasets/housing.tab",
+        "E:/Orange 3.40.0/Lib/site-packages/Orange/datasets/iris.tab",
+        "E:/Orange 3.40.0/Lib/site-packages/Orange/datasets/titanic.tab",
+        "E:/Orange 3.40.0/Lib/site-packages/Orange/datasets/zoo.tab"
+      ],
+      "saved_training_path_hint": "C:/Users/94386/Desktop/rat train.xlsx",
+      "saved_test_path_hint": "C:/Users/94386/Desktop/rat test.xlsx",
+      "final_qstr_features": [
+        "AATSC7i",
+        "CATS2D_08_DL",
+        "ChiA_X",
+        "F06[C-N]",
+        "P_VSA_charge_10"
+      ],
+      "legacy_context_feature_mentions": [
+        "F01[C-N]"
+      ],
+      "saved_target_strings": [
+        " -logLD50",
+        "PLD50"
+      ],
+      "nodes": [
+        {
+          "id": "0",
+          "name": "File",
+          "qualified_name": "Orange.widgets.data.owfile.OWFile",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "File",
+          "position": "(46.0, 173.0)"
+        },
+        {
+          "id": "1",
+          "name": "SVM",
+          "qualified_name": "Orange.widgets.model.owsvm.OWSVM",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "SVM",
+          "position": "(233.0, 86.0)"
+        },
+        {
+          "id": "2",
+          "name": "Gradient Boosting",
+          "qualified_name": "Orange.widgets.model.owgradientboosting.OWGradientBoosting",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Gradient Boosting",
+          "position": "(234.0, 192.0)"
+        },
+        {
+          "id": "3",
+          "name": "kNN",
+          "qualified_name": "Orange.widgets.model.owknn.OWKNNLearner",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "kNN",
+          "position": "(233.0, 319.0)"
+        },
+        {
+          "id": "4",
+          "name": "Random Forest",
+          "qualified_name": "Orange.widgets.model.owrandomforest.OWRandomForest",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Random Forest",
+          "position": "(240.0, 433.0)"
+        },
+        {
+          "id": "5",
+          "name": "Test and Score",
+          "qualified_name": "Orange.widgets.evaluate.owtestandscore.OWTestAndScore",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Test and Score",
+          "position": "(481.0, 329.0)"
+        },
+        {
+          "id": "6",
+          "name": "Predictions",
+          "qualified_name": "Orange.widgets.evaluate.owpredictions.OWPredictions",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Predictions",
+          "position": "(487.0, 117.0)"
+        },
+        {
+          "id": "7",
+          "name": "Data Table",
+          "qualified_name": "Orange.widgets.data.owtable.OWTable",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Data Table",
+          "position": "(43.0, 338.0)"
+        },
+        {
+          "id": "8",
+          "name": "File",
+          "qualified_name": "Orange.widgets.data.owfile.OWFile",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "File (1)",
+          "position": "(401.0, 589.0)"
+        },
+        {
+          "id": "9",
+          "name": "Data Table",
+          "qualified_name": "Orange.widgets.data.owtable.OWTable",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Data Table (1)",
+          "position": "(522.0, 525.0)"
+        },
+        {
+          "id": "10",
+          "name": "Neural Network",
+          "qualified_name": "Orange.widgets.model.owneuralnetwork.OWNNLearner",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Neural Network",
+          "position": "(237.0, -33.0)"
+        },
+        {
+          "id": "11",
+          "name": "Linear Regression",
+          "qualified_name": "Orange.widgets.model.owlinearregression.OWLinearRegression",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Linear Regression",
+          "position": "(242.0, 545.0)"
+        },
+        {
+          "id": "12",
+          "name": "Gradient Boosting",
+          "qualified_name": "Orange.widgets.model.owgradientboosting.OWGradientBoosting",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Gradient Boosting (1)",
+          "position": "(247.0, 664.0)"
+        },
+        {
+          "id": "13",
+          "name": "Stochastic Gradient Descent",
+          "qualified_name": "Orange.widgets.model.owsgd.OWSGD",
+          "project_name": "Orange3",
+          "version": "",
+          "title": "Stochastic Gradient Descent",
+          "position": "(245.0, 758.0)"
+        }
+      ],
+      "learner_properties_by_node_id": {
+        "1": {
+          "C": 0.10000000000000014,
+          "coef0": 1.0,
+          "degree": 3,
+          "epsilon": 0.4,
+          "gamma": 0.0,
+          "kernel_type": 0,
+          "limit_iter": true,
+          "max_iter": 100,
+          "nu": 0.5,
+          "nu_C": 1.0,
+          "svm_type": 0,
+          "tol": 0.01
+        },
+        "2": {
+          "method_index": 0,
+          "catgb_editor": {
+            "colsample_bylevel": 1.0,
+            "lambda_index": 51,
+            "learning_rate": 0.7,
+            "max_depth": 4,
+            "n_estimators": 25,
+            "random_state": true
+          },
+          "gb_editor": {
+            "learning_rate": 0.22000000000000003,
+            "max_depth": 7,
+            "min_samples_split": 3,
+            "n_estimators": 5,
+            "random_state": true,
+            "subsample": 0.7999999999999998
+          },
+          "xgb_editor": {
+            "colsample_bylevel": 0.8499999999999999,
+            "colsample_bynode": 1.0,
+            "colsample_bytree": 1.0,
+            "lambda_index": 56,
+            "learning_rate": 0.294,
+            "max_depth": 2,
+            "n_estimators": 71,
+            "random_state": false,
+            "subsample": 1.0
+          },
+          "xgbrf_editor": {
+            "colsample_bylevel": 1,
+            "colsample_bynode": 1,
+            "colsample_bytree": 1,
+            "lambda_index": 53,
+            "learning_rate": 0.3,
+            "max_depth": 6,
+            "n_estimators": 100,
+            "random_state": true,
+            "subsample": 1
+          }
+        },
+        "3": {
+          "metric_index": 0,
+          "n_neighbors": 5,
+          "weight_index": 0
+        },
+        "4": {
+          "class_weight": false,
+          "index_output": 0,
+          "max_depth": 3,
+          "max_features": 5,
+          "min_samples_split": 5,
+          "n_estimators": 6,
+          "use_max_depth": false,
+          "use_max_features": false,
+          "use_min_samples_split": true,
+          "use_random_state": false
+        },
+        "7": {
+          "auto_commit": true,
+          "color_by_class": true,
+          "select_rows": true,
+          "show_attribute_labels": true,
+          "show_distributions": false,
+          "stored_selection": {
+            "rows": [],
+            "columns": []
+          },
+          "stored_sort": []
+        },
+        "9": {
+          "auto_commit": true,
+          "color_by_class": true,
+          "select_rows": true,
+          "show_attribute_labels": true,
+          "show_distributions": false,
+          "stored_selection": {
+            "rows": [],
+            "columns": []
+          },
+          "stored_sort": []
+        },
+        "10": {
+          "activation_index": 1,
+          "alpha_index": 0,
+          "hidden_layers_input": "2000",
+          "max_iterations": 80,
+          "replicable": true,
+          "solver_index": 2
+        },
+        "11": {
+          "alpha_index": 0,
+          "autosend": true,
+          "fit_intercept": true,
+          "l2_ratio": 0.5,
+          "reg_type": 0,
+          "ridge": false
+        },
+        "12": {
+          "method_index": 1,
+          "catgb_editor": {
+            "colsample_bylevel": 1.0,
+            "lambda_index": 51,
+            "learning_rate": 0.7,
+            "max_depth": 4,
+            "n_estimators": 25,
+            "random_state": true
+          },
+          "gb_editor": {
+            "learning_rate": 0.22000000000000003,
+            "max_depth": 7,
+            "min_samples_split": 3,
+            "n_estimators": 5,
+            "random_state": true,
+            "subsample": 0.7999999999999998
+          },
+          "xgb_editor": {
+            "colsample_bylevel": 0.8499999999999999,
+            "colsample_bynode": 1.0,
+            "colsample_bytree": 1.0,
+            "lambda_index": 74,
+            "learning_rate": 0.293,
+            "max_depth": 2,
+            "n_estimators": 77,
+            "random_state": false,
+            "subsample": 1.0
+          },
+          "xgbrf_editor": {
+            "colsample_bylevel": 1,
+            "colsample_bynode": 1,
+            "colsample_bytree": 1,
+            "lambda_index": 53,
+            "learning_rate": 0.3,
+            "max_depth": 6,
+            "n_estimators": 100,
+            "random_state": true,
+            "subsample": 1
+          }
+        },
+        "13": {
+          "alpha": 0.005000000000000002,
+          "cls_epsilon": 0.19000000000000006,
+          "cls_loss_function_index": 0,
+          "eta0": 0.1,
+          "l1_ratio": 0.019999999999999997,
+          "learning_rate_index": 2,
+          "max_iter": 50,
+          "penalty_index": 1,
+          "power_t": 0.3,
+          "random_state": 2,
+          "reg_epsilon": 0.05000000000000003,
+          "reg_loss_function_index": 3,
+          "shuffle": true,
+          "tol": 0.0006999999999999999,
+          "tol_enabled": true,
+          "use_random_state": true
+        }
+      }
+    }
+  ]
+}
